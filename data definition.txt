@@ -1,0 +1,278 @@
+Parameters
+Name
+The source designation, 4FGL JHHMM.m+DDMM[c], constructed according to the IAU Specifications for Nomenclature, in which the Right Ascension and Declination have been truncated to 0.1 decimal minutes and 1', respectively. The '4' refers to the eight-year catalog (the first-year catalog was '1'; the second-year catalog was '2'; the four-year catalog was '3') and 'FGL' represents Fermi Gamma-ray LAT. The letter at the end can be "c" (coincident with interstellar clump), "e" (extended source), "i" (for Crab nebula inverse Compton) or "s" (for Crab nebula synchrotron).
+
+RA
+The Right Ascension of the gamma-ray source in the selected equinox. This was given in J2000 decimal degree coordinates in the original table.
+
+Dec
+The Declination of the gamma-ray source in the selected equinox. This was given in J2000 decimal degree coordinates in the original table.
+
+LII
+The Galactic Longitude of the gamma-ray source, as derived from the J2000 position in the original table.
+
+BII
+The Galactic Latitude of the gamma-ray source, as derived from the J2000 position in the original table.
+
+Semi_Major_Axis_68
+The semi-major axis of the error ellipse at 68% confidence, in degrees.
+
+Semi_Minor_Axis_68
+The semi-minor axis of the error ellipse at 68% confidence, in degrees.
+
+Position_Angle_68
+The position angle of the 68%-confidence semi-major axis, from celestial North, positive toward increasing R.A. (eastward), in degrees.
+
+Semi_Major_Axis_95
+The semi-major axis of the error ellipse at 95% confidence, in degrees.
+
+Semi_Minor_Axis_95
+The semi-minor axis of the error ellipse at 95% confidence, in degrees.
+
+Position_Angle_95
+The position angle of the 95%-confidence semi-major axis, from celestial North, positive toward increasing R.A. (eastward), in degrees.
+
+Detection_Significance
+The source detection significance, in Gaussian sigma units, over the 100 MeV to 1 TeV band.
+
+Pivot_Energy
+The energy, in MeV, at which the error in the differential photon flux is minimal (i.e., the decorrelation energy for the power-law fit). This is derived from the likelihood analysis for 100 MeV - 1 TeV.
+
+Flux_1_100_GeV
+The integral photon flux for 1 - 100 GeV, in photons/cm2/s.
+
+Flux_1_100_GeV_Error
+The 1-sigma uncertainty in the integral photon flux for 1 - 100 GeV, in photons/cm2/s.
+
+Energy_Flux
+The energy flux, in erg/cm2/s, in the 100 MeV to 100 GeV range obtained by spectral fitting from 100 MeV to 100 GeV.
+
+Energy_Flux_Error
+The 1-sigma error on energy flux from 100 MeV to 100 GeV.
+
+Spectrum_Type
+The spectral type in the global model (PowerLaw, LogParabola, PLSuperExpCutoff).
+
+PL_Flux_Density
+The differential flux at pivot_energy for the PowerLaw fit, in photons/cm2/MeV/s.
+
+PL_Flux_Density_Error
+The 1-sigma uncertainty in differential flux at pivot_energy in PowerLaw fit, in photons/cm2/MeV/s.
+
+PL_Index
+The photon index for the PowerLaw fit.
+
+PL_Index_Error
+The 1-sigma uncertainty on the photon index for PowerLaw fit.
+
+LP_Flux_Density
+The differential flux at pivot_energy for the LogParabola fit, in photons/cm2/MeV/s.
+
+LP_Flux_Density_Error
+The 1-sigma uncertainty in differential flux at pivot_energy in LogParabola fit, in photons/cm2/MeV/s. lp_index The 1-sigma uncertainty on the photon index for LogParabola fit.
+
+LP_Index
+Photon Index at Pivot Energy for LogParabola Fit
+
+LP_Index_Error
+The 1-sigma uncertainty on the photon index for LogParabola fit.
+
+LP_Beta
+The curvature parameter (beta) for LogParabola spectrum types.
+
+LP_Beta_Error
+The 1-sigma uncertainty on lp_beta for LogParabola spectrum types.
+
+LP_Curve_Significance
+The significance in sigma of the fit improvement between PowerLaw and LogParabola fits.
+
+PLEC_Flux_Density
+The differential flux at pivot_energy for the PLSuperExpCutoff fit, in photons/cm2/MeV/s.
+
+PLEC_Flux_Density_Error
+The 1-sigma uncertainty in differential flux at pivot_energy in PLSuperExpCutoff fit, in photons/cm2/MeV/s.
+
+PLEC_Index
+The low energy photon index for PLSuperExpCutoff fit.
+
+PLEC_Index_Error
+The 1-sigma uncertainty on plec_index for PLSuperExpCutoff fit.
+
+PLEC_Exp_Factor
+The exponential factor for PLSuperExpCutoff fit.
+
+PLEC_Exp_Factor_Error
+The 1-sigma uncertainty on exponential factor for PLSuperExpCutoff fit.
+
+PLEC_Exp_Index
+The exponential index for PLSuperExpCutoff fit.
+
+PLEC_Exp_Index_Error
+The 1-sigma uncertainty on exponential index for PLSuperExpCutoff fit.
+
+PLEC_Curve_Significance
+The significance in sigma of the fit improvement between PowerLaw and PLEC fits.
+
+Npred
+The number of predicted events in the model.
+
+Variability_Index
+The sum of the log(likelihood) difference between the flux fitted in each time interval and the average flux over the full catalog interval; a value greater than 18.48 over 12 intervals indicates <1% chance of being a steady source. See the accompanying paper for details.
+
+Frac_Variability
+The fractional variability computed from the fluxes in each year.
+
+Frac_Variability_Error
+The 1-sigma uncertainty on exponential index on the fractional variability.
+
+Significance_Peak
+The source significance in peak interval in sigma units.
+
+Flux_Peak
+The peak integral photon flux from 100 MeV to 100 GeV, in photon/cm2/s.
+
+Flux_Peak_Error
+The 1-sigma error on peak integral photon flux, in photon/cm2/s
+
+Time_Peak
+Time of center of interval in which peak flux was measured, in MJD.
+
+Time_Peak_Interval
+Length of interval in which peak flux was measured, in seconds.
+
+Variability_Index2
+The variability index over two-month intervals; a value greater than 72.44 over 48 intervals indicates <1% chance of being a steady source.
+
+Frac_Variability2
+The fractional variability computed from the fluxes every two months.
+
+Frac_Variability_Error2
+The 1-sigma uncertainty on exponential index on the two month fractional variability.
+
+Significance_Peak2
+The source significance in two month peak interval in sigma units.
+
+Flux_Peak2
+The two month peak integral photon flux from 100 MeV to 100 GeV, in photon/cm2/s.
+
+Flux_Peak_Error2
+The 1-sigma error on two month peak integral photon flux, in photon/cm2/s
+
+Time_Peak2
+Time of center of interval in which two month peak flux was measured, in MJD.
+
+Time_Peak_Interval2
+Length of interval in which two month peak flux was measured, in seconds.
+
+Alt_GammaRay_Name_1
+Most recent correspondence to previous FGL source catalogs, if any.
+
+Alt_GammaRay_Name_2
+Most recent correspondence to previous FHL source catalogs, if any.
+
+Alt_GammaRay_Name_3
+Name of likely corresponding 2AGL source, if any.
+
+Alt_GammaRay_Name_4
+Name of likely corresponding 3EG source, if any.
+
+Alt_GammaRay_Name_5
+Name of likely corresponding EGR source, if any.
+
+Extended_Source_Name
+The extended source identification, if any.
+
+TeVCat_Flag
+This flag parameter indicates a possible association with the TeVCat. The flag values have the following meanings:
+
+             N = No TeV association
+             P = Small TeV source
+             E = Extended TeV source (diameter > 40 arcminutes)
+  
+TeVCat_Assoc
+The designation of the likely corresponding source from the TeVCat catalog, if any.
+
+Source_Type
+The primary class designation of the identification or likely associated source. Refer to the accompanying paper for details of class designations and the association method. Note that designations shown in capital letters are firm identifications; lower case letters indicate associations. The following abbreviations are used:
+
+            agn   = other non-blazar active galaxy
+            bcu   = active galaxy of uncertain type
+            bin   = binary
+            bll   = BL Lac type of blazar
+            css   = compact steep spectrum quasar
+            fsrq  = FSRQ type of blazar
+            gal   = normal galaxy (or part)
+            glc   = globular cluster
+            hmb   = high-mass binary
+            mc    = molecular cloud
+            nlsy1 = narrow line Seyfert 1
+            nov   = nova
+            PSR   = pulsar, identified by pulsations
+            psr   = pulsar, no pulsations seen in LAT yet
+            pwn   = pulsar wind nebula
+            rdg   = radio galaxy
+            sbg   = starburst galaxy
+            sey   = Seyfert galaxy
+            sfr   = star-forming region
+            snr   = supernova remnant
+            spp   = special case - potential association with SNR or PWN
+            ssrq  = soft spectrum radio quasar
+            unk   = unknown
+  
+Source_Type_Alt
+Class designation for an alternative, low-confidence association.
+
+Assoc_Name
+The designation of the identified or likely associated source.
+
+Assoc_Name_Alt
+The alternate designation or an indicator as to whether the source is inside an extended source.
+
+Assoc_Prob_Bay
+The probability of association according to the Bayesian method. It is set to NULL for extended sources (which do not enter that calculation) and to 0 for point sources that did not reach 0.8, the threshold for declaring associations.
+
+Assoc_Prob_LR
+The probability of association according to the Likelihood Ratio method. It is set to NULL for extended sources (which do not enter that calculation) and to 0 for point sources that did not reach 0.8, the threshold for declaring associations.
+
+Assoc_RA
+The Right Ascension of assoc_name counterpart, in degrees.
+
+Assoc_Dec
+The Declination of assoc_name counterpart, in degrees.
+
+Assoc_Error_Radius
+The position uncertainy at 68% confidence level of the counterpart localization for assoc_name, in degrees.
+
+Analysis_Flags
+These analysis flags indicate possible issues noted in the detection or characterization of the source. A value of 0 indicates no known problem. Each condition present raises a unique bit flag. The flag values are bit-encoded into a single integer, with flag N contributing 2N-1 to the value, where N is given as:
+
+      N=1: Source with TS > 35 which went to TS < 25 when changing the diffuse
+           model. Note that sources with TS < 35 are not flagged with this bit
+           because normal statistical fluctuations can push them to TS < 25.
+
+      N=2: Not used.
+
+      N=3: Flux (> 1 GeV) or energy flux (> 100 MeV) changed by more than 3
+           sigma when changing the diffuse model or the analysis method. Requires
+           also that the flux change by more than 35% (to not flag strong
+           sources).
+
+      N=4: Not used.
+
+      N=5: Not used.
+
+      N=6: Not used.
+
+      N=7: Not used.
+
+      N=8: Not used.
+
+      N=9: Localization Quality > 8 in pointlike (see Section 3.1 in catalog
+           paper) or long axis of 95% ellipse > 0.25.
+
+      N=10: Spectral Fit Quality > 30 in pointlike.
+
+      N=11: Not used.
+
+      N=12: Highly curved spectrum; LogParabola beta fixed to 1 or PLEC_Index
+            fixed to 0 (see Section 3.3 in catalog paper).
